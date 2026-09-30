@@ -41,7 +41,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yatmo/yatmo-sdk-react-native.git"
+    "url": "git+https://github.com/yatmo/yatmo-sdk-react-native.git"
   },
   "homepage": "https://documentation.yatmo.com/mobile/react-native",
   "bugs": {
