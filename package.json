@@ -1,0 +1,73 @@
+{
+  "name": "@yatmo/react-native",
+  "version": "1.0.0",
+  "description": "Yatmo neighbourhood intelligence for React Native real-estate apps: MapLibre map with points of interest, travel times and neighbourhood summaries.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./webview": {
+      "types": "./lib/webview.d.ts",
+      "default": "./lib/webview.js"
+    }
+  },
+  "files": [
+    "lib",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "yatmo",
+    "react-native",
+    "maplibre",
+    "real-estate",
+    "property",
+    "poi",
+    "map",
+    "neighbourhood",
+    "isochrone"
+  ],
+  "author": "Yatmo (https://yatmo.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yatmo/yatmo-sdk-react-native.git"
+  },
+  "homepage": "https://documentation.yatmo.com/mobile/react-native",
+  "bugs": {
+    "url": "https://github.com/yatmo/yatmo-sdk-react-native/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@maplibre/maplibre-react-native": ">=11.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.73.0",
+    "react-native-webview": ">=13.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native-webview": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@maplibre/maplibre-react-native": "^11.4.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-native": "^0.74.0",
+    "react-native-webview": "^14.0.1",
+    "typescript": "^5.4.0"
+  }
+}
