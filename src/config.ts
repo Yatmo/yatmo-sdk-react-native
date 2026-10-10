@@ -1,5 +1,5 @@
 /** Version sent in the X-Yatmo-SDK header. Keep in sync with package.json. */
-export const YATMO_SDK_VERSION = '1.0.0';
+export const YATMO_SDK_VERSION = '1.0.1';
 
 /** Countries served by the Yatmo API. The value is the subdomain: `https://{country}.yatmo.com/`. */
 export type YatmoCountry =

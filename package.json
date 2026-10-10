@@ -1,6 +1,6 @@
 {
   "name": "@yatmo/react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yatmo neighbourhood intelligence for React Native real-estate apps: MapLibre map with points of interest, travel times and neighbourhood summaries.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
